@@ -10,9 +10,19 @@ Atualmente, o projeto CONFIA possui dois subprojetos em desenvolvimento:
 Mais informações no [site oficial](https://www.projetoconfia.info/) do projeto.
 
 # Componentes do Ambiente
-Imagem das componentes do ambiente (cms, site, painel, base de dados, automata)
+O projeto CONFIA está organizado em cinco repositórios além deste. A Figura 1 apresenta os referidos repositórios e suas relações, bem como as principais tecnologias empregadas.
 
-Texto sobre as componentes do ambiente
+| ![environment_architecture.png](images/environment_architecture.png) | 
+|:--:| 
+| *Figura 1: Componentes do Ambiente* |
+
+* Repositório `automata`: aplicação python de combate automático à Fake News em redes sociais virtuais. Composto por módulos (abaixo detalhados) que processa os dados coletados das redes sociais na forma de um _pipeline_ de processamento. A aplicação também trafega dados entre as agências de checagem de fatos e as redes sociais virtuais.
+
+* Repositório `database`: armazena os dados coletados e processados pelo AUTOMATA.
+
+* Repositório `admin-panel`: aplicação web que oferece uma interface gráfica de administração e configuração do AUTOMATA, bem como consulta e relatórios estatíscos dos dados processados pelo AUTOMATA.
+
+* Repositórios `cms` e `client`: respectivamente gerenciador de conteúdo (_CMS_) e site do projeto CONFIA.
 
 
 # AUTOMATA
