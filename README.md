@@ -49,11 +49,21 @@ Executa um algoritmo que seleciona as top `n` notícias classificadas como `Fake
 ## Módulo de Processamento de Checagem
 Módulo que processa as análises realizadas por Agências de Checagem de Fatos. Notícias confirmadas pelas Agências como `Fake` são passadas para o módulo de intervenção que publica alertas nas redes sociais virtuais.
 # Instalação do ambiente
+Algumas componentes do ambiente AUTOMATA são opcionais, o que permite a instalação do ambinete de forma customizada.
 
-## Pré-requisitos
 ## Instalação mínima
-## Instalação de componentes adicionais
+A instalação mínima do ambiente AUTOMATA compreende a instalação da aplicação AUTOMATA e do banco de dados. Para tal, siga as instruções presentes no repositório [automata](https://github.com/projeto-confia/automata).
 
+## Instalação de componentes adicionais
+### Componente adicional Painel Administrativo
+Esta componente instala o Painel Administrativo, uma aplicação web que oferece uma interface gráfica de administração e configuração do AUTOMATA, bem como consulta e relatórios estatíscos dos dados processados pelo AUTOMATA.
+
+Para a instalação, siga as instruções presentes no repositório [admin-panel](https://github.com/projeto-confia/admin-panel).
+
+### Componente adicional Website
+Esta componente instala o website e seu respectivo sistema gerenciador de conteúdo (CMS), para divulgação de informações do projeto.
+
+Para a instalação, siga as instruções presentes no repositório [client](https://github.com/projeto-confia/client).
 
 # Documentação
 Texto sobre a documentação geral
