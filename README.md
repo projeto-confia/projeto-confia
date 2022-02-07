@@ -66,6 +66,6 @@ Esta componente instala o website e seu respectivo sistema gerenciador de conte�
 Para a instalação, siga as instruções presentes no repositório [client](https://github.com/projeto-confia/client).
 
 # Documentação
-Texto sobre a documentação geral
+A documentação de mais alto nível do projeto pode ser encontrada neste repositório na pasta [docs](docs/).
 
-Documentação específica nos repositórios das componentes
+Documentação específica de cada componente do ambiente pode ser encontrada nas respectivas pastas docs de cada repositório.
