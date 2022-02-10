@@ -9,14 +9,16 @@ Atualmente, o projeto CONFIA possui dois subprojetos em desenvolvimento:
 
 Mais informações no [site oficial](https://www.projetoconfia.info/) do projeto.
 
-# Componentes do Ambiente
-O projeto CONFIA está organizado em cinco repositórios além deste. A Figura 1 apresenta os referidos repositórios e suas relações, bem como as principais tecnologias empregadas.
+# Subprojeto AUTOMATA
+
+## Componentes do ambiente AUTOMATA
+O subprojeto AUTOMATA está organizado em um ambiente computacional composto por cinco repositórios além deste. A Figura 1 apresenta os referidos repositórios e suas relações, bem como as principais tecnologias empregadas.
 
 | ![environment_architecture.png](images/environment_architecture.png) | 
 |:--:| 
-| *Figura 1: Componentes do Ambiente* |
+| *Figura 1: Componentes do ambiente AUTOMATA* |
 
-* Repositório `automata`: aplicação python de combate automático à Fake News em redes sociais virtuais. Composto por módulos (abaixo detalhados) que processa os dados coletados das redes sociais na forma de um _pipeline_ de processamento. A aplicação também trafega dados entre as agências de checagem de fatos e as redes sociais virtuais.
+* Repositório `automata`: aplicação python de combate automático à Fake News em redes sociais virtuais. Composto por módulos (abaixo detalhados) que processa os dados coletados das redes sociais virtuais na forma de um _pipeline_ de processamento. A aplicação também trafega dados entre as agências de checagem de fatos e as redes sociais virtuais.
 
 * Repositório `database`: armazena os dados coletados e processados pelo AUTOMATA.
 
@@ -48,7 +50,7 @@ Executa um algoritmo que seleciona as top `n` notícias classificadas como `Fake
 
 ## Módulo de Processamento de Checagem
 Módulo que processa as análises realizadas por Agências de Checagem de Fatos. Notícias confirmadas pelas Agências como `Fake` são passadas para o módulo de intervenção que publica alertas nas redes sociais virtuais.
-# Instalação do ambiente
+# Instalação do ambiente AUTOMATA
 Algumas componentes do ambiente AUTOMATA são opcionais, o que permite a instalação do ambinete de forma customizada.
 
 ## Instalação mínima
